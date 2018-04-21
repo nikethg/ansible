@@ -1,0 +1,8 @@
+---
+#sample task for 
+- hosts: all
+  become: yes
+  tasks:
+  - name: installing gitin node1
+    apt:
+     name: git
