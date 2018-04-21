@@ -1,5 +1,5 @@
 ---
-- hosts: yes
+- hosts: all
   become: yes
   tasks:
   - name: pinging the all node
